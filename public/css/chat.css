@@ -1,0 +1,139 @@
+body{
+    background-color: #363131;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+.main{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    width: 54%;
+    left: 161px;
+    top: 18px;
+    margin: auto;
+    height: 95%;
+    left: 318px;
+}
+.chatMain{
+    width:100%;
+    position: relative;
+}
+.roomInfo{
+    background-color: #0689b1;
+    color: white;
+}
+.friends{
+    margin-left: 8px;
+}
+.roomName{
+    margin-bottom: -1px;
+    margin-left: 8px;
+}
+.chat{
+    height: 70%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.messages{
+    margin: 13px 39px 29px 39px;
+}
+.message{
+    max-width: 305px;
+    color: white;
+    border-radius: 10px;
+    margin: 12px;
+    width: 100%;
+    padding: 8px;
+}
+.me{
+    background-color: #09b5e9;
+}
+.others{
+    position: relative;
+    left: 324px;
+    background-color: #d4e1e1;
+    color: #635e5e;
+}
+.userName{
+    margin-bottom: 1px;
+}
+.messageContent{
+    font-weight: 500;
+    margin: 3px 4px 1px 4px;
+    display: inline;
+    word-break: break-word;
+
+}
+.locationLink{
+    color: aliceblue;
+}
+.time{
+    float: right;
+    font-size: 17px;
+    margin-right: 11px;
+    color: #867f7f;
+}
+.chatInput{
+    width: 90%;
+    margin-left: 27px;
+    border: none;
+    border-radius: 22px;
+    background: #d1e2e7;
+    padding: 6px;
+    padding-left: 20px;
+}
+.sendingForm{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.sendBtn{
+    position: absolute;
+    right: 4px;
+    background-color: #d4e1e1;
+    top: -2px;
+    border-radius: 50%;
+}
+.fa-location-arrow{
+    color: #4c6e88;
+    transform: rotate(45deg);
+    margin-bottom: 6px;
+}
+.sendLocation{
+    position: absolute;
+    background: none;
+    font-size: 18px;
+    right: 51px;
+    bottom: -1px;
+    color: #0689b1;
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        width: 91%;
+        left: 10px;
+    }
+    .others{
+        left: 25px;
+    }
+    .chatInput {
+        width: 82%;
+    }
+    .chat {
+        height: 81%;
+    }
+}
